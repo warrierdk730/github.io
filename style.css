@@ -1,0 +1,58 @@
+body {
+font-family: -apple-system, BlinkMacSystemFont;
+background: #0f172a;
+color: white;
+margin:0;
+}
+
+header{
+text-align:center;
+padding:60px;
+background:#020617;
+}
+
+.resume-btn{
+background:#3b82f6;
+padding:10px 20px;
+border-radius:6px;
+color:white;
+text-decoration:none;
+}
+
+.about{
+padding:50px;
+max-width:800px;
+margin:auto;
+}
+
+.skills{
+padding:50px;
+text-align:center;
+}
+
+.skill-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:20px;
+}
+
+.skill-grid div{
+background:#1e293b;
+padding:20px;
+border-radius:10px;
+}
+
+.projects{
+padding:50px;
+}
+
+.project-card{
+background:#1e293b;
+padding:20px;
+margin:20px;
+border-radius:10px;
+}
+
+.project-card a{
+color:#60a5fa;
+}
